@@ -1,0 +1,35 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+body
+{
+    font-family: 'Comfortaa', cursive;
+}
+.background-image
+{
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/10/18/03/laptop-3214756_1280.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+}
+
+.doyou{
+    font-size: 49px;
+    padding-bottom: 10%;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color:black;
+}
+
+.btn{
+     background-color: black;
+     height: 50px;
+     width: 170px;
+     border-radius: 8px;
+}
